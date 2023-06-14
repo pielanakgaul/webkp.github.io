@@ -9,4 +9,4 @@ Konvert
 Jika ingin mengelompokkan titik koordinat dengan folder tertentu, silahkan menginputkan terlebih dahulu nama header yang akan menjadi patokan pembagian folder. Misal berdasarkan DATEL, STO atau yang lainnya. (Inputkan nama header yang sesuai, misal "STO" tanpa tanda petik)
 
 Output KML
-Jika proses konversi sudah selesai, file KML akan otomatis terdownlod dan akan masuk ke dalam folder download. Bukalah file KML tersebut dengan aplikasi Google Earth. Di samping adalah file KML hasil convert dari contoh tabel pada petunjuk file excel dengan pembagian folder berdasarkan STO
+Jika proses konversi sudah selesai, file KML akan otomatis terdownlod dan akan masuk ke dalam folder download. Bukalah file KML tersebut dengan aplikasi Google Earth.
