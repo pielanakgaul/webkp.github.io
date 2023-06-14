@@ -1,0 +1,12 @@
+File Excel
+
+Untuk menggunakan website ini, format file excel harus dalam xlsx. Agar konversi berfungsi dengan benar, maka data excel tersebut harus mengikuti aturan sebagai berikut:
+1. Data harus memiliki kolom dengan header ODP_NAME, LATITUDE, dan LONGITUDE untuk menampilkan titik koordinat. (Pastikan penulisan header sudah sesuai )
+2. Koordinat Lintang (Latitude) dan Bujur (Longitude) harus dalam decimal degree. Contoh Latitude: -5.501544622, Longitude: 122.5642734.
+3. Warna icon dapat disesuaikan dengan menambahkan kolom dengan nama header OCC_2 dan berikan keterangan warna masing-masing titik. *Warna yang bisa ditampilkan hanya 4 macam. RED dan ORANGE untuk icon merah, BLACK untuk icon hitam, GREEN untuk icon Hijau, dan YELLOW untuk icon kuning. (Pastikan keterangan warna ditulis dengan kapital dan bahasa inggris)
+
+Konvert
+Jika ingin mengelompokkan titik koordinat dengan folder tertentu, silahkan menginputkan terlebih dahulu nama header yang akan menjadi patokan pembagian folder. Misal berdasarkan DATEL, STO atau yang lainnya. (Inputkan nama header yang sesuai, misal "STO" tanpa tanda petik)
+
+Output KML
+Jika proses konversi sudah selesai, file KML akan otomatis terdownlod dan akan masuk ke dalam folder download. Bukalah file KML tersebut dengan aplikasi Google Earth. Di samping adalah file KML hasil convert dari contoh tabel pada petunjuk file excel dengan pembagian folder berdasarkan STO
