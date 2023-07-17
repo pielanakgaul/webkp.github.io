@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Bulan Mei 2023 pada 16.05
+-- Waktu pembuatan: 17 Jul 2023 pada 13.19
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -34,6 +34,14 @@ CREATE TABLE `tb_user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data untuk tabel `tb_user`
+--
+
+INSERT INTO `tb_user` (`id`, `username`, `password`) VALUES
+(1, 'tegar@gmail.com', '$2y$10$sazN9daUqs9PohqVMY3qBOnJUvJyzMkI83ggzG093xh5wApMpbIgC'),
+(2, 'tegar', '$2y$10$gi35.H/ZaGPXgshqHc1yueTGtMaaIb42R2ivfe5hmtzKKwmQUlfdy');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -42,6 +50,16 @@ CREATE TABLE `tb_user` (
 --
 ALTER TABLE `tb_user`
   ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `tb_user`
+--
+ALTER TABLE `tb_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
