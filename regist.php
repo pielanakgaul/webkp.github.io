@@ -7,7 +7,7 @@ if (isset($_POST['btnDaftar'])) {
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
     $query = mysqli_query($konek, "INSERT INTO tb_user VALUES ('','$username','$password')");
-
+    // var_dump($query);
     if ($query) {
         echo "
             <script>
