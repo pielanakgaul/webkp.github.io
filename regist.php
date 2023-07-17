@@ -17,6 +17,26 @@ if (isset($_POST['btnDaftar'])) {
         ";
     }
 }
+
+// if (isset($_POST['btnDaftar'])) {
+//     $username = mysqli_real_escape_string($konek, $_POST['username']);
+//     $password = mysqli_real_escape_string($konek, $_POST['password']);
+//     $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+
+//     $query = mysqli_query($konek, "INSERT INTO tb_user (username, password) VALUES ('$username', '$hashedPassword')");
+
+//     if ($query) {
+//         echo "
+//             <script>
+//                 alert('Daftar Akun Sukses');
+//                 window.location.href='login.php';
+//             </script>
+//         ";
+//     } else {
+//         echo "Error: " . mysqli_error($konek);
+//     }
+// }
+
 ?>
 
 
